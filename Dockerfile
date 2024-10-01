@@ -1,9 +1,9 @@
 # Global config
-ARG toltec_image=ghcr.io/toltec-dev/base:v3.1
-# ARG toltec_image=ghcr.io/toltec-dev/base:v3.2
+#ARG toltec_image=ghcr.io/toltec-dev/base:v3.1
+ARG toltec_image=ghcr.io/toltec-dev/base:v3.2
 ARG rm2_stuff_tag=v0.1.2
-ARG fw_version=3.5.2.1807
-#ARG fw_version=3.11.2.5
+#ARG fw_version=3.5.2.1807
+ARG fw_version=3.11.2.5
 ARG linux_release=5.8.18
 
 # Step 1: Build Linux for the emulator
